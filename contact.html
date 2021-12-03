@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Shivanjali Society</title>
+
+        <link rel="stylesheet" href="./styles/styleContact.css">
+        <link rel="stylesheet" href="./styles/navBar.css">
+
+        <!------ Include the above in your HEAD tag ---------->
+
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <!-- NAV BAR -->
+
+        <section class="header">
+
+            <div class="slideshow">
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./donation.html">Donate Us</a></li>
+                            <li><a href="./team.html">Our Team</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <div class="slideshow-item">
+                    <img src="image/banner-1.jpg">
+                    <div class="slideshow-text">
+                        <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                        <p>"Making a Better Tomorrow"</p>
+                    </div>
+                </div>
+                <div class="slideshow-item">
+                    <img src="image/Child-Support.jpg">
+                    <div class="slideshow-text">
+                        <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                        <p>"Making a Better Tomorrow"</p>
+                    </div>
+                </div>
+                <div class="slideshow-item">
+                    <img src="image/1.jpg">
+                    <div class="slideshow-text">
+                        <h1>Welcome to <span style="color: #03a0e9;">Shivanjali</span></h1>
+                        <p>"Making a Better Tomorrow"</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+     
+</script>
+        <!-- NAV BAR ENDS -->
+
+        <!-- Contact PAGE HEADING -->
+        <div>
+            <div class="d-flex text-center" id="aboutIntro">
+                <h1 id="aboutHeading">Contact Us</h1>
+            </div>
+            <div aria-label="breadcrumb" class="aboutIntro2">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html"
+                            class="homelink">Home</a></li>
+                    <li class="breadcrumb-item homelink" aria-current="page">Contact
+                        Us</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Contact PAGE HEADING ENDS -->
+
+
+        <!------ Include the above in your HEAD tag ---------->
+        <div class="section mar">
+            <div class="container">
+
+                <h3 class="text-center m-5">Contact Us</h3><br />
+
+                <div class="row">
+                    <div class="col-md-8 p-2px">
+                        <form aciton="/myaction.php" name="myForm"
+                            onsubmit="return validateForm()" method="post">
+                            <div class="form-group row p-1">
+                                <div class="col col-sm-4 col-xs-12 p-1">
+                                    <input class="form-control" name="name"
+                                        placeholder="name*" required /><br /><span
+                                        class="formerror"> </span>
+                                </div>
+                                <div class="col col-sm-4 col-xs-12 p-1">
+                                    <input class="form-control" name="phone"
+                                        placeholder="Phone*" required /><br /><span
+                                        class="formerror"> </span>
+                                </div>
+                                <div class="col col-sm-4 col-xs-12 p-1">
+                                    <input class="form-control" name="email"
+                                        placeholder="mail*" required /><br /><span
+                                        class="formerror"> </span>
+                                </div>
+                            </div class="p-1">
+                            <textarea class="form-control p-1" name="text"
+                                placeholder="How can we help you?"
+                                style="height:200px;"></textarea><br />
+                            <div class="text-center">
+                                <button class="btn m-0 but" type="submit"
+                                    value="Send message">Submit</button></div>
+                            <br /><br />
+                        </form>
+                    </div>
+                    <div class="col-md-4" style="color: black !important;">
+                        <b><h1 class="ml-2">Main Office</h1></b><br>
+                        <p class="text-justify-left ml-2" style="color: black
+                            !important;"><i class="fas fa-map-marker-alt"></i>
+                            B-25, Tonk Rd, Shiv Nagar, Shakti Nagar, Tonk
+                            Phatak, Jaipur, Rajasthan 302018</p>
+                        <p class="ml-2" style="color: black !important;"><i
+                                class="fas fa-phone"></i> Phone: +91 8233583565</p>
+                        <a href="#">
+                            <p class="ml-2" style="color: blue;"><i class="fas
+                                    fa-envelope" style="color: black;"></i>
+                                info@shivanjalisociety.in</p>
+                        </a>
+                        <br />
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- MAP -->
+        <a style="width: 100%;margin: 30px 0px;display: block;"
+            href="https://www.google.com/maps/dir//SHIVANJALI+SOCIETY+B-25,+Tonk+Rd+Shiv+Nagar,+Shakti+Nagar,+Tonk+Phatak+Jaipur,+Rajasthan+302018/@26.8690006,75.7225598,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396db515fcb80fbb:0x86d943995344eb59!2m2!1d75.7926001!2d26.8690179"
+            target="_blank"><img src="image/map.PNG" alt="" id="map"
+                style="height: 100%;width: 90%;margin: auto;display:
+                block;
+                border-radius: 5px;">
+        </a>
+        <!-- MAP -->
+
+        <!-- ------------------------------------------------------------------------ -->
+        <!-- ----------------------------Footer Start---------------------------------------------->
+        <footer class="footer">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class="col-sm-4 col-md col-sm-4 col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Main Office</h5>
+                        <!--headin5_amrc-->
+                        <p class="mb10 pt-2">Shivanjali Society, Shakti Nagar,
+                            Tonk Road, Jaipur - 302018
+                        </p>
+
+                        <p><i class="fa fa-phone"></i><a href="#"> +91
+                                8233583565 </a> </p>
+                        <p><a href="#"><i class="fa fa fa-envelope"></i>
+                                info@shivanjalisociety.in </a> </p>
+                        <p><a href="https://twitter.com/shivanjalingo"><i
+                                    class="fab fa-twitter"></i> @shivanjalingo
+                            </a></p>
+                        <p><a
+                                href="https://www.instagram.com/shivanjali.ngoindia/"><i
+                                    class="fab fa-instagram"></i>
+                                @shivanjali.ngoindia</a></p>
+                        <p><a
+                                href="https://www.facebook.com/profile.php?id=100048829754043"><i
+                                    class="fab fa-facebook"></i>
+                                @shivanjalingo-makingabattertomorrow </a></p>
+                    </div>
+
+
+                    <div class="col-sm-4 col-md col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">IMPORTANT
+                            LINKS</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc pt-2">
+                            <li><a href="#">WHAT WE DO </a></li>
+                            <li><a href="#">HOW YOU CAN HELP</a></li>
+                            <li><a href="./careers.html">CAREER</a></li>
+                            <li><a href="./team.html#management">MANEGMENT TEAM</a></li>
+                            <li><a href="./team.html#volunteer">VOLUNTERR TEAM</a></li>
+                            <li><a href="./donation.html">DONATION</a></li>
+                        </ul>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+
+
+                    <div class="col-sm-4 col-md col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">NEWSLETTER</h5>
+                        <!--headin5_amrc-->
+                        <div class="footer_ul_amrc pt-2">
+                            <h6 style="color: white;">TO RECEIVE ALL UPDATES:</h6>
+                            <input class="mb-1 mt-1" type="email"
+                                placeholder="Enter E-mail Address"><br>
+                            <button class="btn btn-sm btn-warning">Sign Up</button>
+                        </div>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+
+
+                    <div class="col-sm-4 col-md col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">RECENT POST:</h5>
+                        <!--headin5_amrc ends here-->
+
+                        <ul class="footer_ul2_amrc pt-2">
+                            <li>
+                                <a
+                                    href="https://twitter.com/shivanjalingo/status/1398541869345214470"><img
+                                        src="https://i.ibb.co/dbYXpmd/circle-cropped.png"
+                                        /> Twitter
+                                    <p style="border: 0.5px solid white;
+                                        font-size: 12px;">FUNDRAISAL FOR SAVING
+                                        A SMALL GIRL'S LIFE....KINDLY AMPLIFY
+                                        THIS TWEET AS MUCH AS POSSIBLE ON
+                                        TWITTER ALONG WITH INSTAGRAM AND HELP
+                                        ANNU.</p>
+                                </a>
+                            </li>
+
+                            <!-- <li><a href="https://twitter.com/shivanjalingo/status/1398541869345214470"><img src="https://i.ibb.co/dbYXpmd/circle-cropped.png"/> Twitter<p style="border: 0.5px solid white; font-size: 12px;">FUNDRAISAL FOR SAVING A SMALL GIRL'S LIFE....KINDLY AMPLIFY THIS TWEET AS MUCH AS POSSIBLE ON TWITTER ALONG WITH INSTAGRAM AND HELP ANNU.</p></a></li
+
+        <li><a href="https://twitter.com/shivanjalingo/status/1398541869345214470"><img src="https://i.ibb.co/dbYXpmd/circle-cropped.png"/> Twitter<p style="border: 0.5px solid white; font-size: 12px;">FUNDRAISAL FOR SAVING A SMALL GIRL'S LIFE....KINDLY AMPLIFY THIS TWEET AS MUCH AS POSSIBLE ON TWITTER ALONG WITH INSTAGRAM AND HELP ANNU.</p></a></li -->
+                        </ul>
+                        <!--footer_ul2_amrc ends here-->
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="p-3" style="color: white; text-align: center;">SHIVANJALI</h1>
+                <p class="text-center">SHIVANJALI follows all financial
+                    regulations set forth for non-profits by the Government of
+                    India, and is audited annually.</p>
+            </div>
+
+
+            <div class="container">
+
+                <!--foote_bottom_ul_amrc ends here-->
+                <p class="text-center">copyright <a href="#"> @shivanjalisociety</a></p>
+                <!--social_footer_ul ends here-->
+            </div>
+
+        </footer>
+
+
+
+
+        <!-- footer-end -->
+
+        <!-- footer-end -->
+
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+        <script src="contact.js"></script>
+        <script src="script.js"></script>
+        <!-- ------------------------------------------------------------------------ -->
+    </body>
+
+</html>
