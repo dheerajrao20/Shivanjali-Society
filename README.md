@@ -1,6 +1,6 @@
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/68502679/144672709-b113d2a3-2c0b-455b-a525-c84902e13772.png)
+![Shivanjali_Logo](https://user-images.githubusercontent.com/68502679/149489895-3fa35ab3-c16e-4784-b67f-e87730a6db25.png)
 
 </div>
   
