@@ -3,7 +3,7 @@
 # How To Make A Pull Request
 
 
-**1.** **Fork** [this](https://github.com/bhavjot14/Shivanjali-Society) repository.
+**1.** **Fork** [this](https://github.com/BHAVJOT14/Shivanjali-Society) repository.
 
 **2.** **Clone** your forked copy of the project.
 
@@ -33,7 +33,7 @@ npm run
 **5.** **Add a reference(remote)** to the original repository to get all the changes from the remote.
 
 ```
-git remote add upstream https://github.com/bhavjot14/Shivanjali-Society
+git remote add upstream https://github.com/BHAVJOT14/Shivanjali-Society
 ```
 
 **5.** **Check the remote** for this repository.

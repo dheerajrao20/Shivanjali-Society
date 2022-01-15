@@ -16,8 +16,8 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
 # ✨ Contributors ✨
-  <a href="https://github.com/bhavjot14/Shivanjali-Society/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=bhavjot14/Shivanjali-Society" />
+  <a href="https://github.com/BHAVJOT14/Shivanjali-Society/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=BHAVJOT14/Shivanjali-Society" />
   </a>
 
 # 🎇How To Contribute 🎇
@@ -46,7 +46,7 @@ To start contributing, follow the below guidelines:
 
 # How To Setup The Project
 
-**1.** **Fork** [this](https://github.com/bhavjot14/Shivanjali-Society) repository.
+**1.** **Fork** [this](https://github.com/BHAVJOT14/Shivanjali-Society) repository.
 
 **2.** **Clone** your forked copy of the project.
 
