@@ -61,5 +61,5 @@ cd Shivanjali-Society
 
 *Note: It might takes upto 5-10mins to start.*
 
-# 🎉🎉🎉🎉🎉🎉 ___HAPPY CONTRIBUTING!___ 🎉🎉🎉🎉🎉🎉
+# 🎉🎉🎉 ___HAPPY CONTRIBUTING!___ 🎉🎉🎉
 
