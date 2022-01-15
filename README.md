@@ -15,11 +15,10 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 # Tech Stack
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
-# Contributors 
-- > Bhavjot Singh
-- > Anisha Singh
-- > 
-- >  
+# ✨Contributors 
+  <a href="https://github.com/bhavjot14/Shivanjali-Society/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=bhavjot14/Shivanjali-Society" />
+  </a>
 
 # 🎇How To Contribute 🎇
 
