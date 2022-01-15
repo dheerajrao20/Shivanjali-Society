@@ -12,10 +12,16 @@ Website Link : <a href="https://www.shivanjalisociety.in/" target="_blank"> Shiv
 
 A NGO working in the field of poverty alleviation, education, and many other issues. 
 
-  # Tech Stack
+# Tech Stack
 - > HTML5
 - > CSS3
 - > Js
+
+# Contributors 
+- > Bhavjot Singh
+- > Anisha Singh
+- > 
+- >  
 
 # 🎇How To Contribute 🎇
 
@@ -59,7 +65,10 @@ cd Shivanjali-Society
 
 **4.** AND there is the project running in your browser.🎉 
 
+
 *Note: It might takes upto 5-10mins to start.*
+
+
 
 # 🎉🎉🎉 ___HAPPY CONTRIBUTING!___ 🎉🎉🎉
 
