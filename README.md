@@ -8,14 +8,14 @@
 
 Website Link : <a href="https://www.shivanjalisociety.in/" target="_blank"> Shivanjali Society </a>
 
-# 🎇 Shivanjali Society 📒
+# 🎇 Shivanjali Society 🎇
 
 A NGO working in the field of poverty alleviation, education, and many other issues. 
 
-# Tech Stack
+# ✨ Tech Stack ✨
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
-# ✨Contributors 
+# ✨ Contributors ✨
   <a href="https://github.com/bhavjot14/Shivanjali-Society/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=bhavjot14/Shivanjali-Society" />
   </a>
