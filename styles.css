@@ -5,6 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: sans-serif;
+  
 }
 header {
   display: flex;
@@ -162,7 +163,7 @@ header {
   padding: 16px;
   color: #fff;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 12px;
   cursor: pointer;
 }
 .card-image{
@@ -199,7 +200,7 @@ header {
   background-color: #57cc99;
 }
 .card:nth-child(4){
-  background-color: #807d99;
+  background-color: #80ED99;
 }
 /* --------------about------------  */
 .about-page{
@@ -266,7 +267,8 @@ header {
     z-index: 9999;
   }
   #navbar.active {
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
+    top: 60px;
     bottom: 0;
     width: 100%;
   }
@@ -277,32 +279,6 @@ header {
   }
   .navigation-manual{
     margin-top: -4vh;
-  }
-  .cards{
-    flex-direction: column;
-    height: 100vh;
-  }
-  .card{
-    flex-direction: row;
-    width: 80vw;
-    height: 20vh;
-  }
-  .card-image{
-    width: 40vw;
-    height: 20vh;
-  }
-  .card-content{
-    height: 18vh;
-    margin-right: 10vw;
-  }
-  .card-content h1{
-    font-size: 1.2em;
-  }
-  .card-content h2{
-    font-size: 0.9em;
-  }
-  .card-content a{
-    font-size: 0.9em;
   }
   .about{
     flex-direction: column;
@@ -316,7 +292,7 @@ header {
   .about-img{
     width: 50vw;
   }
-  header{
+  header.active{
     position: fixed;
     background-color: #fff;
     z-index: 999999999;
@@ -325,15 +301,41 @@ header {
 
 
 }
-@media (max-width: 500px){
-  .card-image img{
-    transform: scale(5);
+@media (max-width: 600px){
+  .card-image{
+    width:70vw;
   }
   .card-content{
     margin-right: 0;
   }
+  .about-img{
+    width: 70vw;
+    height: 30vh;
+    overflow-x: hidden;
+  }
+  .about-img img{
+    transform: scale(2);
+  }
+  .about-content h1{
+    font-size: 1.3em;
+  }
   .about-content p{
     letter-spacing: 0;
+    font-size: 1em;
+  }
+  .cards{
+    flex-direction: column;
+    height: 180vh;
+  }
+  .card{
+    height: 40vh;
+    width: 80vw;
+  }
+  .about{
+    margin-right: 10px;
+  }
+  .about p{
+    margin-right: 30px;
   }
 }
 
